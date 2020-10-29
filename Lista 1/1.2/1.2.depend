@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602761759 source:d:\studia uwr\praktyczny wstêp do programowania\1.2\main.cpp
+	<iostream>
+	<windows.h>
+	<winbase.h>
+
