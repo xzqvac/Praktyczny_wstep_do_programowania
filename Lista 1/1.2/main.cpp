@@ -5,16 +5,10 @@ using namespace std;
 
 int main()
 {
-    cout << "\x1b[44m *********         \x1b[41m *        *     "<<endl;
-    cout << "\x1b[44m *       *         \x1b[41m *      *       "<<endl;
-    cout << "\x1b[44m *       *         \x1b[41m *    *         "<<endl;
-    cout << "\x1b[44m *       *         \x1b[41m *  *           "<<endl;
-    cout << "\x1b[44m *********         \x1b[41m **             "<<endl;
-    cout << "\x1b[44m **                \x1b[41m **             "<<endl;
-    cout << "\x1b[44m *  *              \x1b[41m *   *          "<<endl;
-    cout << "\x1b[44m *    *            \x1b[41m *     *        "<<endl;
-    cout << "\x1b[44m *      *          \x1b[41m *       *      "<<endl;
-
+    cout << "Dzien dobry!" << endl;
+    cout << "Wlasnie znajdujemy sie na lekcji" <<endl;
+    cout << "Praktyczny wstep do programowania" <<endl;
+    cout << "Powodzenia!" <<endl;
     return 0;
 
 }

@@ -1,0 +1,7 @@
+cs penup seth 90
+for [i -400 -200 50] [setxy 23 :i setlabelheight 60 label "było]
+for [i -140 0 30] [setxy 50 :i setlabelheight 30 label "było]
+penup setxy 60 15 setlabelheight 20 label "jest
+for [i 400 200 -50] [setxy 0 :i setlabelheight 60 label "będzie]
+for [i 140 30 -30] [setxy 36 :i setlabelheight 30 label "będzie]
+hideturtle
