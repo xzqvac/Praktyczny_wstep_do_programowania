@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603968521 source:d:\studia uwr\praktyczny wstêp do programowania\listy\praktyczny_wstep_do_programowania\lista 2\2.7\main.cpp
+	<iostream>
+	<cmath>
+	<fstream>
+

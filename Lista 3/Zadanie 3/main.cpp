@@ -14,5 +14,7 @@ int main()
 
     }
     cout<<N<<"!= "<<wynik<<endl;
+    cout<<"Najwyzsza wartoscia dla jakiej otrzymuje poprawne wartosci to N=12."<<endl;
+    cout<<"Dla N = 13 zmienna typu int nie przechowuje wartosci, poniewaz jest powyzej 2'147'483'647"<<endl;
     return 0;
 }
