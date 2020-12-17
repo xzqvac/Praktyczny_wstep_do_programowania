@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1608171656 source:d:\studia uwr\praktyczny wstêp do programowania\listy\praktyczny_wstep_do_programowania\lista 5\zadanie 1\main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"windows.h"
+

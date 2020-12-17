@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606997035 source:d:\studia uwr\praktyczny wstêp do programowania\listy\praktyczny_wstep_do_programowania\lista dodatkowa\zadanie2\main.cpp
+	<iostream>
+	<cstddef>
+	<string>
+
