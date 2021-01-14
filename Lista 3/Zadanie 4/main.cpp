@@ -28,7 +28,7 @@ int main()
         {
             wynik = x + y;
             cout<<"Twoj wynik to: "<<wynik<<endl;
-            cout<<"Czy chcesz sprobowac jeszcze raz? (0/1)"<<endl;
+            cout<<"Czy chcesz sprobowac jeszcze raz? (Nie - 0/Tak - 1)"<<endl;
             cin>>dec;
             if (dec==1)
             {
@@ -43,7 +43,7 @@ int main()
         {
             wynik = x * y;
             cout<<"Twoj wynik to: "<<wynik<<endl;
-            cout<<"Czy chcesz sprobowac jeszcze raz? (0/1)"<<endl;
+            cout<<"Czy chcesz sprobowac jeszcze raz? (Nie - 0/Tak - 1)"<<endl;
             cin>>dec;
             if (dec==1)
             {
