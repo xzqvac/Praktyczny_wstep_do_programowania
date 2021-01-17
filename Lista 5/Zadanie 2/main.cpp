@@ -2,31 +2,38 @@
 
 using namespace std;
 
-float readHeight(float height)
+float readHeight()
 {
+    float height;
     cout<<"Podaj wzrost w metrach"<<endl;
     cin>>height;
     return height;
 }
 
-int readMass(float mass)
+int readMass()
 {
+    int mass;
     cout<<"Podaj wage w kilogramach"<<endl;
     cin>>mass;
     return mass;
 }
 
-typedef float( * BMI)(height, mass)
+float BMI(float height, int mass)
 {
-    height = readHeight()
+    float BMI;
     BMI = (mass/(height*height));
-    cout<< BMI;
+    return BMI;
+}
+
+void BMIprint(float BMI)
+{
+    cout<<"Twoje BMI to: "<<BMI;
 }
 
 
 int main()
 {
-    BMI();
+    BMIprint(BMI(readHeight(),readMass()));
     return 0;
 }
 
