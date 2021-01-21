@@ -5,10 +5,7 @@ int main()
     const int szerokosc = 800;
     const int wysokosc = 800;
     const int promien = 50;
-    /*float x = 50.0;
-    float y = 50.0;
-    float vx = 0.05;
-    float vy = 0.05;*/
+
     float dt = 1.0;
 
     const int N = 3;
@@ -18,10 +15,8 @@ int main()
     float vy[3] = { 0.05, 0.06, 0.12 };
     float g[3] = {10, 30, 50};
 
-    sf::RenderWindow window(sf::VideoMode(szerokosc, wysokosc), "SFML works!");
-    //sf::CircleShape shape(100.f);
-    //sf::CircleShape circle(promien);
-    //circle.setFillColor(sf::Color::Green);
+    sf::RenderWindow window(sf::VideoMode(szerokosc, wysokosc), "SFML is launched!");
+
 
     std::vector <sf::CircleShape> shapes(N);
     for (int i = 0; i < N; i++)
@@ -35,7 +30,7 @@ int main()
     {
         for (int i = 0; i < N; i++)
         {
-            if (x[i] > szerokosc-(2*promien)) //szerokosc-2*(promien)
+            if (x[i] > szerokosc-(2*promien))
             {
                 vx[i] = -vx[i];
             }
@@ -49,15 +44,15 @@ int main()
             }
             else if (y[i] < 0)
             {
-                //vy[i] = -vy[i];
+
                 y[i] += dt;
-                //vy[i] += g[i];
+
             }
             x[i] = x[i] + (vx[i] * dt);
             y[i] = y[i] + (vy[i] * dt);
             vy[i] = vy[i] + 0.001 * dt;
             g[i] += vy[i];
-            //vx[i] = vx[i] + gravity * dt;
+
             shapes[i].setFillColor(sf::Color(0 + g[i], 125, 0));
         }
 
