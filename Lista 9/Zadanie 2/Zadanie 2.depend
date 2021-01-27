@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1611535760 source:d:\studia uwr\praktyczny wstêp do programowania\listy\praktyczny_wstep_do_programowania\lista 9\zadanie 2\main.cpp
+	<iostream>
+	<cmath>
+	<fstream>
+	<cstdlib>
+	<math.h>
+

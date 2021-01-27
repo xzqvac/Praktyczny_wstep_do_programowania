@@ -15,7 +15,7 @@ int main()
     int sum = 0;
 
     // Pierwszy sposob
-    for(int i = 0; i<numbers.size(); i++)
+    for(int i = 0; i<numbers.size()+10; i++)
         sum += numbers[i];
 
     std::cout << sum << std::endl;

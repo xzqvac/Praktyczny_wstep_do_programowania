@@ -1,6 +1,6 @@
 The system is: Windows - 10.0.19041 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/Programowanie/mingw64/bin/gcc.exe 
+Compiler: C:/mingw64/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -13,7 +13,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is GNU, found in "D:/Studia UWr/Praktyczny wstęp do programowania/Listy/Praktyczny_wstep_do_programowania/Lista 8/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/Programowanie/mingw64/bin/g++.exe 
+Compiler: C:/mingw64/bin/g++.exe 
 Build flags: 
 Id flags:  
 

@@ -1,16 +1,16 @@
 Determining if the C compiler works failed with the following output:
 Change Dir: D:/Studia UWr/Praktyczny wstęp do programowania/Listy/Praktyczny_wstep_do_programowania/Lista 8/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Programowanie/mingw64/bin/mingw32-make.exe cmTC_e8e89/fast && C:/Programowanie/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e8e89.dir\build.make CMakeFiles/cmTC_e8e89.dir/build
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe cmTC_e007a/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e007a.dir\build.make CMakeFiles/cmTC_e007a.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Studia UWr/Praktyczny wstŕp do programowania/Listy/Praktyczny_wstep_do_programowania/Lista 8/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e8e89.dir/testCCompiler.c.obj
-C:\Programowanie\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_e8e89.dir\testCCompiler.c.obj   -c "D:\Studia UWr\Praktyczny wst─Öp do programowania\Listy\Praktyczny_wstep_do_programowania\Lista 8\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Building C object CMakeFiles/cmTC_e007a.dir/testCCompiler.c.obj
+C:\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_e007a.dir\testCCompiler.c.obj   -c "D:\Studia UWr\Praktyczny wst─Öp do programowania\Listy\Praktyczny_wstep_do_programowania\Lista 8\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
 gcc.exe: error: D:\Studia UWr\Praktyczny wst─Öp do programowania\Listy\Praktyczny_wstep_do_programowania\Lista 8\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
 gcc.exe: fatal error: no input files
 compilation terminated.
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_e8e89.dir\build.make:85: CMakeFiles/cmTC_e8e89.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_e007a.dir\build.make:85: CMakeFiles/cmTC_e007a.dir/testCCompiler.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Studia UWr/Praktyczny wstŕp do programowania/Listy/Praktyczny_wstep_do_programowania/Lista 8/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:140: cmTC_e8e89/fast] Error 2
+mingw32-make.exe: *** [Makefile:140: cmTC_e007a/fast] Error 2
 
 
 
