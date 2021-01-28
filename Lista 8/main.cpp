@@ -223,7 +223,8 @@ int main()
 
         if (gametime.getElapsedTime().asSeconds() > 1.0)
         {
-            counter--;
+            if (counter > 0)
+                counter--;
             if (counter == 0)
             {
                 for (int i = 0; i < duck.size(); i++)
